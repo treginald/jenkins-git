@@ -7,6 +7,8 @@ pipeline {
                 bat '''
                     echo "Multiline shell steps works too"
                     dir
+		    tasklist
+		    hostname
                 '''
             }
         }
